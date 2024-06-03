@@ -87,7 +87,7 @@
         "../node_modules/@nuxt/image/dist/runtime/*"
       ],
       "#icon-collections": [
-        "./icon-collections"
+        "./icon-collections.mjs"
       ],
       "#aos": [
         "../node_modules/nuxt-aos/dist/runtime"
@@ -102,7 +102,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev.json"
+        "./manifest/meta/ab346464-b0d9-4cbd-85dc-75f4e33624a8.json"
       ],
       "#build": [
         "."

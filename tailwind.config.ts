@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 import daisyui from "daisyui";
 
+// @ts-ignore
 export default {
   darkMode: ["selector", "[data-theme='dark']"],
   content: [],
