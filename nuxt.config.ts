@@ -1,3 +1,4 @@
+const path  = require('path')
 // @ts-ignore
 export default defineNuxtConfig({
   modules: [
@@ -17,6 +18,11 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: false },
+  nitro:{
+    output:{
+      publicDir: path.join(__dirname,'docs')
+    }
+  },
   devServer: {
     port: 5527,
   },
